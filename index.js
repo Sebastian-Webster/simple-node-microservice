@@ -24,6 +24,7 @@ app.get('/simpleAPI', (req, res) => {
 
 app.get('/', (req, res) => {
     res.send('Hello!')
+    //Comment for build
 })
 
 const port = 4000
